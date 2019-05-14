@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
@@ -14,8 +15,18 @@
 <body>
     <h1>Let's Play!</h1>
     <h2>Rock, Paper, Scissors!</h2>
-    <button id="rock" type="button">Rock!</button>
-    <button id="paper" type="button">Paper!</button>
-    <button id="paper" type="button">Scissors!</button>
+
+    <button onclick="playRound('rock')" id="rock" type="button">Rock!</button>
+    <button onclick="playRound('paper')" id="paper" type="button">Paper!</button>
+    <button onclick="playRound('scissors')" id="paper" type="button">Scissors!</button>
+    <div>
+        <p id="results"></p>
+    </div>
+    <div>
+        <h1>Computer Score</h1><h1 id="computerscore"></h1>
+        <h1>Player Score</h1>h1 id="playerscore"></h1>
+    </div>
 
 </body>
+
+</html>
