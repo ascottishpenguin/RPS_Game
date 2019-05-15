@@ -15,7 +15,7 @@ function playRound(playerSelection) {
         document.getElementById("computerscore").textContent = scoreComputer
     } 
     else if (playerSelection == 'rock' &&  computerSelection == 'scissors' || playerSelection == 'paper' && computerSelection == 'rock' || playerSelection == 'scissors' && computerSelection == 'paper')  {
-        document.getElementById("results").textContent = "Computer chose "+computerSelection+"! You Lose!"
+        document.getElementById("results").textContent = "Computer chose "+computerSelection+"! You Win!"
         scorePlayer += 1
         document.getElementById("playerscore").textContent = scorePlayer
     } 
